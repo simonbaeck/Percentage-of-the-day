@@ -13,6 +13,6 @@ var elapsedPercentage = secElapsed * 100;
 let secTotalElemennt = document.getElementById('secTotal');
 secTotalElemennt.innerHTML = Math.floor(elapsedPercentage) + "%";
 
-// Adjust browsers by percentage value
+// Adjust browsers height by percentage value
 let classBg = document.getElementById('bg');
 classBg.style.height = elapsedPercentage + "vh";
